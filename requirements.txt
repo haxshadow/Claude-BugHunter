@@ -1,0 +1,10 @@
+requests>=2.31.0
+pytest>=8.0.0
+
+# Free-first multi-provider AI (optional — install what you use)
+ollama>=0.3.0          # local free provider (also needs the ollama daemon running)
+# anthropic>=0.39.0    # Claude API provider (optional)
+
+# Autonomous ReAct agent (optional — built-in loop works without these)
+# langgraph>=0.2.0
+# langchain-ollama>=0.2.0
